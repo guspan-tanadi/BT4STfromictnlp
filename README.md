@@ -27,7 +27,7 @@ python setup.py build develop
 
 **In the following, we will show how to synthesize pseudo ST data using the En-De direction as an example.**
 
-1. Download [MuST-C v1.0 dataset](https://ict.fbk.eu/must-c/) to the `data/mustc/` directory and uncompress it. Run the following script to preprocess the dataset.
+1. Download [MuST-C v1.0 dataset](https://huggingface.co/datasets/enimai/MuST-C-de) to the `data/mustc/` directory and uncompress it. Run the following script to preprocess the dataset.
 
 ```
 python bt4st/scripts/prep_mustc_data.py \
